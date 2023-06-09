@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav>
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- End Nav -->
+
+  <form>
+    <table>
+      <tr>
+        <td><label for="nom">Nom:</label></td>
+        <td><input type="text" id="nom" name="nom" required></td>
+      </tr>
+      <tr>
+        <td><label for="prenom">Prénom:</label></td>
+        <td><input type="text" id="prenom" name="prenom" required></td>
+      </tr>
+      <tr>
+        <td><label>Sexe:</label></td>
+        <td>
+          <input type="radio" id="homme" name="sexe" value="homme" required>
+          <label for="homme">Homme</label>
+          <input type="radio" id="femme" name="sexe" value="femme" required>
+          <label for="femme">Femme</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="langue">Langue:</label></td>
+        <td>
+          <select id="langue" name="langue" required>
+            <option value="">Sélectionnez une langue</option>
+            <option value="francais">Français</option>
+            <option value="anglais">Anglais</option>
+            <option value="espagnol">Espagnol</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;"><input type="submit" value="Envoyer"></td>
+      </tr>
+    </table>
+  </form>
+  
+  <div id="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kvyWeTXCSKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  
+
+  <!-- Section: About -->
+  <section id="about">
+    <h2>About</h2>
+    <p>Welcome to my portfolio! I am a passionate web developer with several years of experience in building responsive and user-friendly websites. My skills include HTML, CSS, JavaScript, and various web frameworks. I love turning ideas into reality through coding and always strive for excellence in my work. Feel free to explore my projects and get in touch with me for any collaboration opportunities.</p>
+  </section>
+
+  <!-- Section: Work -->
+  <section id="work">
+    <h2>Work</h2>
+    <h3>Project 1</h3>
+    <p>HtmlCheckPoint</p>
+    
+    <h3>Project 2</h3>
+    <p>HtmlAndCssCheckPoint</p>
+  </section>
+
+  <!-- Section: Resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <h3>Education</h3>
+    <p>Bachelor of Mathematics, XYZ University, 20XX</p>
+    
+    <h3>Experience</h3>
+    <p>Web Developer, Company ABC, 20XX-20XX</p>
+    <p>Responsibilities:</p>
+    <ul>
+      <li>Developed and maintained company websites</li>
+      <li>Implemented new features and functionality</li>
+      <li>Optimized websites for performance and responsiveness</li>
+    </ul>
+  </section>
+
+  <!-- Section: Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you would like to get in touch with me, please use the contact form below or reach out to me via email or phone. I would be happy to hear from you!</p>
+    <p>Email:mohamed.jlidi.5680@gmail.com</p>
+    <p>Phone: +1 123-456-7890</p>
+  </section>
+  <!-- End Section -->
+
+  <!-- Footer -->
+  <hr>
+  <footer>
+    <p>&copy; 2023 Mohamed Jlidi</p>
+    <p>Address: 123 Portfolio Street, Gabes, Tunis</p>
+    <p>Phone: +123456789</p>
+    <p>Email: mohamed.jlidi.5680@gmail.com</p>
+  </footer>
+  <!-- End Footer -->
+  
+</body>
+</html>

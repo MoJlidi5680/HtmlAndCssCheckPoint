@@ -1,0 +1,162 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Style the navigation */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Style the form */
+form {
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+  background-color: #fff;
+  border-collapse: collapse;
+  width: 400px;
+  border: 2px solid #333;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+input[type="text"],
+select {
+  width: 200px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the sections */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  font-size: 24px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+section ul {
+  margin-top: 10px;
+  color: #555;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+/* Custom Styles */
+#work h3,
+#about h3,
+#contact h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#work p,
+#about p,
+#contact p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Custom field styles */
+#nom label,
+#prenom label,
+#sexe label,
+#langue label {
+  color: #333;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+#nom input,
+#prenom input,
+#sexe input,
+#langue select {
+  width: 200px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Positioning styles */
+#table-container {
+  text-align: center;
+}
+
+#video-container {
+  margin-top: 20px;
+  text-align: center;
+}
